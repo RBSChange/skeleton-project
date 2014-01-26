@@ -1,7 +1,7 @@
 {
 	"Change":{
 		"Application":{
-			"development-mode":true,
+			"development-mode":true
 		},
 		"Db":{
 			"use": "mysql",
