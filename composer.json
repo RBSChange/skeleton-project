@@ -1,0 +1,7 @@
+{
+	"prefer-stable":true,
+	"minimum-stability":"dev",
+	"require": {
+		"rbschange/core": "dev-master"
+	}
+}
