@@ -10,7 +10,7 @@
 		"rbs/collection": "dev-master",
 		"rbs/commerce": "dev-master",
 		"rbs/common":"dev-master",
-		"rbs/demo":"dev-master"
+		"rbs/demo":"dev-master",
 		"rbs/dev":"dev-master",
 		"rbs/discount": "dev-master",
 		"rbs/elasticsearch": "dev-master",
