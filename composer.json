@@ -1,6 +1,6 @@
 {
 	"name": "rbschange/skeleton-application",
-    	"description": "Skeleton Application for ZF2",
+    	"description": "Skeleton Application for RBS Change",
     	"license": "MPL-2.0",
 	"prefer-stable":true,
 	"minimum-stability":"dev",
