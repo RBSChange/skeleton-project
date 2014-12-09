@@ -4,21 +4,22 @@
     	"license": "MPL-2.0",
 	"prefer-stable":true,
 	"minimum-stability":"dev",
+	"config": {
+		"process-timeout": 600
+	},
 	"require": {
 		"rbschange/core": "dev-master",
 		"rbs/admin": "dev-master",
-		"rbs/base":"dev-master",
 		"rbs/brand": "dev-master",
 		"rbs/catalog": "dev-master",
 		"rbs/collection": "dev-master",
 		"rbs/commerce": "dev-master",
-		"rbs/common":"dev-master",
-		"rbs/demo":"dev-master",
-		"rbs/dev":"dev-master",
 		"rbs/discount": "dev-master",
 		"rbs/elasticsearch": "dev-master",
+		"rbs/event": "dev-master",
 		"rbs/generic": "dev-master",
 		"rbs/geo": "dev-master",
+		"rbs/highlight": "dev-master",
 		"rbs/mail": "dev-master",
 		"rbs/media": "dev-master",
 		"rbs/notification": "dev-master",
@@ -38,6 +39,13 @@
 		"rbs/user": "dev-master",
 		"rbs/website": "dev-master",
 		"rbs/wishlist": "dev-master",
-		"rbs/workflow": "dev-master"
+		"rbs/workflow": "dev-master",
+		"rbs/base":"dev-master",
+		"rbs/common":"dev-master",
+		"rbs/dev":"dev-master",
+		"rbs/demo":"dev-master",
+		"rbs/be2bill":"dev-master",
+		"rbs/mondialrelay":"dev-master",
+		"rbs/productreturn":"dev-master"
 	}
 }

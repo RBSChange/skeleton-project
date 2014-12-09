@@ -4,17 +4,13 @@
 			"development-mode":true
 		},
 		"Db":{
-			"use": "mysql",
+			"use":"mysql",
 			"mysql":{
 				"host":"localhost",
 				"user":"root",
-				"password":"",
+				"password":"change",
 				"database":"rbschange",
 				"port":3306,
-				"longTransaction":10
-			},
-			"sqlite":{
-				"database":"App/sqlite.db",
 				"longTransaction":10
 			}
 		},
@@ -22,18 +18,11 @@
 			"supported-lcids":[
 				"en_US",
 				"fr_FR"
-			],
-			"langs":{
-				"en_US":"en",
-				"fr_FR":"fr"
-			}
+			]
 		},
 		"Install":{
 			"webBaseDirectory":"www",
 			"webBaseURLPath":""
-		},
-		"Cache":{
-			"block":false
 		}
 	},
 	"Rbs":{
