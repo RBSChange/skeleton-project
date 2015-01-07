@@ -1,11 +1,9 @@
 #!/bin/sh
-php sys/composer.phar self-update
-php sys/composer.phar update
 mysql -u root -pchange -e "drop database IF EXISTS rbschange; create database rbschange;"
 rm -rf App/Config/project.autogen.json App/Storage Compilation/* tmp/ log/project/* log/other/*
 rm -rf www/Assets www/Imagestorage www/index.php www/admin.php www/rest.php www/rest.V1.php www/ajax.V1.php www/ajax.php
 mkdir tmp
-php sys/composer.phar self-update
+php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=$(pwd)/sys
 php sys/composer.phar install
 php bin/change.phar change:set-document-root www
 php bin/change.phar change:generate-db-schema
